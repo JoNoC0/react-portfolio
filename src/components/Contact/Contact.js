@@ -35,7 +35,9 @@ function ContactForm() {
     }
 
     return (
+        <>
         <section>
+        <i class="fa fa-linkedin-square"></i>
             <h1>Contact me</h1>
             <form id='contact-form' onSubmit={handleSubmit}>
                 <div>
@@ -58,7 +60,7 @@ function ContactForm() {
                 <button type='submit'>Submit</button>
             </form>
         </section>
-    
+    </>
     );
     
 }

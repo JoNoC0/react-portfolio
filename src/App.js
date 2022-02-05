@@ -13,7 +13,7 @@ import Header from '../src/components/Header/Header';
 function App() {
   const pages = [<About />, <Contact />, <Projects />, <Resume />]
   const [currentPage, setCurrentPage] = useState(pages[0])
-  const name = 'John Nguyen'
+
 
   return (
     <div className="App">
