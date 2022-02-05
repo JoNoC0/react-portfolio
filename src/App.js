@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
-
 import './App.css';
-import About from '../src/components/About';
-import Contact from '../src/components/Contact';
-import Nav from '../src/components/Nav';
-import Footer from '../src/components/Footer';
-import Projects from '../src/components/Projects';
+import About from '../src/components/About/About';
+import Contact from '../src/components/Contact/Contact';
+import Nav from '../src/components/Nav/Nav';
+import Footer from '../src/components/Footer/Footer';
+import Projects from '../src/components/Projects/Projects';
+import Resume from '../src/components/Resume/Resume'
+import Header from '../src/components/Header/Header';
+
+
 
 function App() {
-  const pages = [<About />, <Contact />, <Projects />]
+  const pages = [<About />, <Contact />, <Projects />, <Resume />]
   const [currentPage, setCurrentPage] = useState(pages[0])
   const name = 'John Nguyen'
 
