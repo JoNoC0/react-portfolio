@@ -1,7 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState  } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import { FaHeart } from 'react-icons/fa';
+
+
+
 
 function ContactForm() {
+
     // JSX
     const [formState, setFormState] = useState({name: '', email: '', message: ''});
     const { name, email, message } = formState;
@@ -36,8 +41,10 @@ function ContactForm() {
 
     return (
         <>
+    
         <section>
-        <i class="fa fa-linkedin-square"></i>
+            
+        <FaHeart />
             <h1>Contact me</h1>
             <form id='contact-form' onSubmit={handleSubmit}>
                 <div>
@@ -59,10 +66,12 @@ function ContactForm() {
                 )}
                 <button type='submit'>Submit</button>
             </form>
+           
         </section>
-    </>
+        </>
     );
     
+ 
 }
 
 export default ContactForm;

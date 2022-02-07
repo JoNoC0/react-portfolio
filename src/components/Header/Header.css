@@ -1,5 +1,5 @@
 * {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
   }
   
   html {
@@ -8,9 +8,9 @@
   
   
   body {
-    background: #ff7e5f; 
-    background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);  
-    background: linear-gradient(to right, #feb47b, #ff7e5f); 
+    background: #3715cf; 
+    background: -webkit-linear-gradient(to right, #bbbace, #0029dd);  
+    background: linear-gradient(to right, #bbbace, #0029dd); 
     height: 100%;
     flex-direction: column;
     align-items: center;

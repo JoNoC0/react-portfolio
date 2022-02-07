@@ -3,11 +3,10 @@ import './App.css';
 import About from '../src/components/About/About';
 import Contact from '../src/components/Contact/Contact';
 import Nav from '../src/components/Nav/Nav';
-import Footer from '../src/components/Footer/Footer';
 import Projects from '../src/components/Projects/Projects';
 import Resume from '../src/components/Resume/Resume'
 import Header from '../src/components/Header/Header';
-
+import Footer from '../src/components/Footer/Footer';
 
 
 function App() {
