@@ -10,6 +10,11 @@ function Projects() {
             <p className='projects-sub'>
                 Some of my recent projects.
             </p>
+            <Row>
+                <Container>
+                    
+                </Container>
+            </Row>
         </Container>
         
     )
