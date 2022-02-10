@@ -2,9 +2,6 @@ import React, { useState  } from 'react';
 import { validateEmail } from '../../utils/helpers';
 import { FaHeart } from 'react-icons/fa';
 
-
-
-
 function ContactForm() {
 
     // JSX
@@ -13,6 +10,8 @@ function ContactForm() {
     const [errorMessage, setErrorMessage] = useState('');
 
     function handleChange(e) {
+        console.log(formState);
+        
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
             console.log(isValid);
@@ -28,7 +27,7 @@ function ContactForm() {
             }
         }
         if (!errorMessage) {
-            setFormState({...formState, name: e.target.value })
+            setFormState({...formState, [e.target.name] : e.target.value})
         }
         
    console.log('errorMessage', errorMessage);
@@ -36,6 +35,9 @@ function ContactForm() {
     
     function handleSubmit(e) {
         e.preventDefault();
+        console.log(formState);
+        alert('User ' + formState.name + ' has sent message!') 
+        setFormState({name: '', email: '', message: ''})
         console.log(formState);
     }
 
