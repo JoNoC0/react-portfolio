@@ -24,7 +24,7 @@ function Projects() {
                     <ProjectCard
                     imgPath={bbr}
                     title="Best Book Review"
-                    description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+                    description="add description"
                     link="https://github.com/soumyajit4419/Chatify"
                     />
                 </Col>
@@ -34,7 +34,7 @@ function Projects() {
                     <ProjectCard
                     imgPath={budget}
                     title="Best Book Review"
-                    description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+                    description="add description"
                     link="https://github.com/JoNoC0/budget-tracker"
                     />
                 </Col>
@@ -44,7 +44,7 @@ function Projects() {
                     <ProjectCard
                     imgPath={ecommerce}
                     title="Best Book Review"
-                    description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+                    description="add description"
                     link="https://github.com/JoNoC0/ecommerce"
                     />
                 </Col>
@@ -54,7 +54,7 @@ function Projects() {
                     <ProjectCard
                     imgPath={passGen}
                     title="Best Book Review"
-                    description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+                    description="add description"
                     link="https://github.com/JoNoC0/passwordgen"
                     />
                 </Col>
@@ -64,7 +64,7 @@ function Projects() {
                     <ProjectCard
                     imgPath={mealTime}
                     title="Best Book Review"
-                    description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+                    description="add description"
                     link="https://github.com/JoNoC0/MealTime"
                     />
                 </Col>
@@ -74,7 +74,7 @@ function Projects() {
                     <ProjectCard
                     imgPath={teamProfile}
                     title="Best Book Review"
-                    description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+                    description="add description"
                     link="https://github.com/JoNoC0/team-profile-generator"
                     />
                 </Col>
