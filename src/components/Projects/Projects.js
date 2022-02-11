@@ -24,7 +24,7 @@ function Projects() {
                     <ProjectCard
                     imgPath={bbr}
                     title="Best Book Review"
-                    description="add description"
+                    description="A user can leave a review to books listed on site"
                     link="https://github.com/soumyajit4419/Chatify"
                     />
                 </Col>
@@ -33,8 +33,8 @@ function Projects() {
                 <Col md={4} className="project-card">
                     <ProjectCard
                     imgPath={budget}
-                    title="Best Book Review"
-                    description="add description"
+                    title="Budget Tracker"
+                    description="Budget Tracker lets user keep track on their income, just like a balancing a checkbook!"
                     link="https://github.com/JoNoC0/budget-tracker"
                     />
                 </Col>
@@ -43,8 +43,8 @@ function Projects() {
                 <Col md={4} className="project-card">
                     <ProjectCard
                     imgPath={ecommerce}
-                    title="Best Book Review"
-                    description="add description"
+                    title="E-Commerce"
+                    description="A back-end application that enables the user to handle adjustments to company's inventory, pricing, and employees."
                     link="https://github.com/JoNoC0/ecommerce"
                     />
                 </Col>
@@ -53,8 +53,8 @@ function Projects() {
                 <Col md={4} className="project-card">
                     <ProjectCard
                     imgPath={passGen}
-                    title="Best Book Review"
-                    description="add description"
+                    title="Password Generator"
+                    description="A basic password generator for those who have difficulties coming up with their own."
                     link="https://github.com/JoNoC0/passwordgen"
                     />
                 </Col>
@@ -63,8 +63,8 @@ function Projects() {
                 <Col md={4} className="project-card">
                     <ProjectCard
                     imgPath={mealTime}
-                    title="Best Book Review"
-                    description="add description"
+                    title="Meal Time"
+                    description="Meal time helps user find recipes based on the ingredient in the search bar."
                     link="https://github.com/JoNoC0/MealTime"
                     />
                 </Col>
@@ -73,8 +73,8 @@ function Projects() {
                 <Col md={4} className="project-card">
                     <ProjectCard
                     imgPath={teamProfile}
-                    title="Best Book Review"
-                    description="add description"
+                    title="Team Profile Generator"
+                    description="A CLI application that let users enter data for new employees and make changes to existing employees database."
                     link="https://github.com/JoNoC0/team-profile-generator"
                     />
                 </Col>
