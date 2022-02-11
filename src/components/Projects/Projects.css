@@ -1,14 +1,20 @@
-
+.body{
+    align-content: space-around;
+    justify-content: center;
+}
 .container {
     flex-direction: column;
     display: flex;
+    align-content: center;
+
 }
 .project-section {
     position: relative !important;
     padding-top: 150px !important;
     padding-bottom: 30px !important;
     background-image: var(--section-background-color) !important;
-    flex-direction: column;
+
+    
     
   }
   
@@ -18,8 +24,8 @@
     padding-left: 25px !important;
     padding-right: 25px !important;
     height: auto !important;
-    display: flex;
-    flex-direction: column;
+
+    justify-content: center;
   }
   
   .project-card-view {
