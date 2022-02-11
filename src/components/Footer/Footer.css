@@ -7,7 +7,9 @@
     padding-top: 10px !important;
     padding-bottom: 8px !important ;
     position: fixed !important;
-    z-index: -1000;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 9999;
   }
   .footer-copy {
     text-align: center !important;
