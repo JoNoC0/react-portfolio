@@ -7,7 +7,7 @@ import bbr from '../assets/projectImages/bookback.jpg'
 import budget from '../assets/projectImages/budgetTracker.png'
 import ecommerce from '../assets/projectImages/ecommerce.gif'
 import passGen from '../assets/projectImages/InitialPassGen.png'
-import mealTime from '../assets/projectImages/mealTime.png'
+import fullfill from '../assets/projectImages/FULLfill.png'
 import teamProfile from '../assets/projectImages/teamprofile.png'
 
 function Projects() {
@@ -19,6 +19,8 @@ function Projects() {
             <p className='projects-heading'>
                 Some of my recent projects.
             </p>
+            <div className='card-group'>
+
             <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                 <Col md={4} className="project-card">
                     <ProjectCard
@@ -62,10 +64,10 @@ function Projects() {
             <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                 <Col md={4} className="project-card">
                     <ProjectCard
-                    imgPath={mealTime}
-                    title="Meal Time"
-                    description="Meal time helps user find recipes based on the ingredient in the search bar."
-                    link="https://github.com/JoNoC0/MealTime"
+                    imgPath={fullfill}
+                    title="FULLfill!"
+                    description="Baby gift registry for expecting mothers"
+                    link="https://github.com/pardue95/group-5-project-3"
                     />
                 </Col>
             </Row>
@@ -79,6 +81,7 @@ function Projects() {
                     />
                 </Col>
             </Row>
+            </div>
         </Container>
 
     )
