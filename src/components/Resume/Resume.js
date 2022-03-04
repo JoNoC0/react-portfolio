@@ -6,8 +6,8 @@ function Resume() {
     return (
         <div className='resume-containter'>
             <h1>Resume</h1>
-            <img src={images} height='600' width='auto'>
-            </img>
+            <input type="image" img src={images} alt='resume' height='600' width='auto'>
+            </input>
             <br />
             <a href={resumePdf}>
             <button className='resume-download'>Download Resume</button>

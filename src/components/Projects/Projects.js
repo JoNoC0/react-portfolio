@@ -12,7 +12,7 @@ import teamProfile from '../assets/projectImages/teamprofile.png'
 
 function Projects() {
     return (
-        <Container fluid className='project-section'>
+        <Container fluid className='project-section' class='d-flex justify-content-center'>
             <h1 className='projects-title'>
                 My Recent Projects
             </h1>
@@ -21,8 +21,8 @@ function Projects() {
             </p>
             <div className='card-group'>
 
-            <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-                <Col md={4} className="project-card">
+            <Row>
+                <Col md={4} className="project-card" class='overflow'>
                     <ProjectCard
                     imgPath={bbr}
                     title="Best Book Review"
@@ -30,8 +30,8 @@ function Projects() {
                     link="https://github.com/soumyajit4419/Chatify"
                     />
                 </Col>
-            </Row>
-            <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+           
+            
                 <Col md={4} className="project-card">
                     <ProjectCard
                     imgPath={budget}
@@ -40,8 +40,7 @@ function Projects() {
                     link="https://github.com/JoNoC0/budget-tracker"
                     />
                 </Col>
-            </Row>
-            <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            
                 <Col md={4} className="project-card">
                     <ProjectCard
                     imgPath={ecommerce}
@@ -50,8 +49,7 @@ function Projects() {
                     link="https://github.com/JoNoC0/ecommerce"
                     />
                 </Col>
-            </Row>
-            <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+           
                 <Col md={4} className="project-card">
                     <ProjectCard
                     imgPath={passGen}
@@ -60,8 +58,7 @@ function Projects() {
                     link="https://github.com/JoNoC0/passwordgen"
                     />
                 </Col>
-            </Row>
-            <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            
                 <Col md={4} className="project-card">
                     <ProjectCard
                     imgPath={fullfill}
@@ -70,8 +67,7 @@ function Projects() {
                     link="https://github.com/pardue95/group-5-project-3"
                     />
                 </Col>
-            </Row>
-            <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            
                 <Col md={4} className="project-card">
                     <ProjectCard
                     imgPath={teamProfile}
